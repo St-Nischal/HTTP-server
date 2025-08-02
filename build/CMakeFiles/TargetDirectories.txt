@@ -1,0 +1,3 @@
+/Users/nischalpoudel/CLionProjects/Server/build/CMakeFiles/Server.dir
+/Users/nischalpoudel/CLionProjects/Server/build/CMakeFiles/edit_cache.dir
+/Users/nischalpoudel/CLionProjects/Server/build/CMakeFiles/rebuild_cache.dir
