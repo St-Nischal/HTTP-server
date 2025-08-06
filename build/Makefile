@@ -129,6 +129,30 @@ Server/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Server.dir/build.make CMakeFiles/Server.dir/build
 .PHONY : Server/fast
 
+HTTPRequest.o: HTTPRequest.c.o
+.PHONY : HTTPRequest.o
+
+# target to build an object file
+HTTPRequest.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Server.dir/build.make CMakeFiles/Server.dir/HTTPRequest.c.o
+.PHONY : HTTPRequest.c.o
+
+HTTPRequest.i: HTTPRequest.c.i
+.PHONY : HTTPRequest.i
+
+# target to preprocess a source file
+HTTPRequest.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Server.dir/build.make CMakeFiles/Server.dir/HTTPRequest.c.i
+.PHONY : HTTPRequest.c.i
+
+HTTPRequest.s: HTTPRequest.c.s
+.PHONY : HTTPRequest.s
+
+# target to generate assembly for a file
+HTTPRequest.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Server.dir/build.make CMakeFiles/Server.dir/HTTPRequest.c.s
+.PHONY : HTTPRequest.c.s
+
 Server.o: Server.c.o
 .PHONY : Server.o
 
@@ -186,6 +210,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Server"
+	@echo "... HTTPRequest.o"
+	@echo "... HTTPRequest.i"
+	@echo "... HTTPRequest.s"
 	@echo "... Server.o"
 	@echo "... Server.i"
 	@echo "... Server.s"

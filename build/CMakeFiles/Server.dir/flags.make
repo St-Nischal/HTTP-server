@@ -4,7 +4,7 @@
 # compile C with /usr/bin/cc
 C_DEFINES = 
 
-C_INCLUDES = 
+C_INCLUDES = -I/opt/homebrew/include
 
 C_FLAGSarm64 = -std=gnu11 -arch arm64
 

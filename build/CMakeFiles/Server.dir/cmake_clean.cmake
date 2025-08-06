@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/Server.dir/HTTPRequest.c.o"
+  "CMakeFiles/Server.dir/HTTPRequest.c.o.d"
   "CMakeFiles/Server.dir/Server.c.o"
   "CMakeFiles/Server.dir/Server.c.o.d"
   "CMakeFiles/Server.dir/launch.c.o"

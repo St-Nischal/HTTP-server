@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Edit Data</title>
+</head>
+<body>
+<h1>Edit Entry</h1>
+<form id="editForm">
+    <label for="name">Name to Edit:</label>
+    <input type="text" id="name" name="name" required><br><br>
+
+    <label for="newValue">New Value:</label>
+    <input type="text" id="newValue" name="value" required><br><br>
+
+    <button type="submit">Submit Edit</button>
+</form>
+
+<script>
+    document.getElementById('editForm').addEventListener('submit', function(e) {
+        e.preventDefault();
+        const name = document.getElementById('name').value;
+        const value = document.getElementById('newValue').value;
+
+        fetch('/api/data/1', {
+            method: 'PUT',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({ name, value })
+        })
+            .then(response => response.json())
+            .then(data => alert("Edit submitted!"))
+            .catch(error => alert("Error: " + error));
+    });
+</script>
+</body>
+</html>

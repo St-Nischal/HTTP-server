@@ -1,1 +1,1 @@
-/usr/bin/cc  -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/Server.dir/Server.c.o CMakeFiles/Server.dir/launch.c.o -o Server
+/usr/bin/cc  -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/Server.dir/Server.c.o CMakeFiles/Server.dir/launch.c.o CMakeFiles/Server.dir/HTTPRequest.c.o -o Server   -L/opt/homebrew/lib  -Wl,-rpath,/opt/homebrew/lib -lcjson

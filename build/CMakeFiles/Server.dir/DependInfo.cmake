@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/Users/nischalpoudel/CLionProjects/Server/HTTPRequest.c" "CMakeFiles/Server.dir/HTTPRequest.c.o" "gcc" "CMakeFiles/Server.dir/HTTPRequest.c.o.d"
   "/Users/nischalpoudel/CLionProjects/Server/Server.c" "CMakeFiles/Server.dir/Server.c.o" "gcc" "CMakeFiles/Server.dir/Server.c.o.d"
   "/Users/nischalpoudel/CLionProjects/Server/launch.c" "CMakeFiles/Server.dir/launch.c.o" "gcc" "CMakeFiles/Server.dir/launch.c.o.d"
   )
